@@ -1,0 +1,57 @@
+{
+  "cartId": "{{cartId}}",
+  "address": {
+    "addressLine1": "100 NE 100th St",
+    "addressLine2": "Near landmark",
+    "addressLine3": "Near landmark",
+    "addressLine4": "Near landmark",
+    "city": "Seattle",
+    "region": "Washington",
+    "country": "USA",
+    "postalCode": "98121",
+    "attention": "Billing manager",
+    "email": "test@mail.com",
+    "kind": "shipping",
+    "name": "John E Doe",
+    "phone": {
+      "number": "123-456-7899",
+      "kind": "Mobile"
+    }
+  },
+  "type": "SHIP_TO_ADDRESS",
+  "taxCode": "FR1000",
+  "isPickup": true,
+  "locationNumber": 15,
+  "altPickupPerson": {
+    "addressLine1": "100 NE 100th St",
+    "addressLine2": "Near landmark",
+    "addressLine3": "Near landmark",
+    "addressLine4": "Near landmark",
+    "city": "Seattle",
+    "region": "Washington",
+    "country": "USA",
+    "postalCode": "98121",
+    "attention": "Billing manager",
+    "email": "test@mail.com",
+    "kind": "shipping",
+    "name": "John E Doe",
+    "phone": {
+      "number": "123-456-7899",
+      "kind": "Mobile"
+    }
+  },
+  "pickupPerson": {
+    "name": "John E Doe",
+    "phone": {
+      "number": "123-456-7899",
+      "kind": "Mobile"
+    },
+    "email": "test@mail.com"
+  },
+  "warehouseId": "XYZ-1234",
+  "storeId": "ABC-123",
+  "shippingCost": "{{cost}}",
+  "shippingMethodId": "{{shippingMethodId}}",
+  "shippingDiscount": "0",
+  "shippingMethodName": "Express Delivery"
+}

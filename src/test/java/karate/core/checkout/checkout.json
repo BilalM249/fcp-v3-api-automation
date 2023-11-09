@@ -1,0 +1,87 @@
+{
+  "cartId": "{{cartId}}",
+  "customer": {
+    "name": {
+      "firstName": "John",
+      "middleName": "Williams",
+      "lastName": "Doe"
+    },
+    "email": "john.doe@gmail.com",
+    "phone": {
+      "number": "123-456-7890",
+      "type": "HOME"
+    },
+    "accountId": "122131",
+    "employeeId": "1213",
+    "company": "fabric"
+  },
+  "payments": [
+    {
+      "paymentProvider": "CASH_ON_DELIVERY",
+      "paymentMethod": "CASH_ON_DELIVERY",
+      "methodType": "tamara",
+      "paymentToken": {
+        "token": "534234543",
+        "paymentType": "tamara"
+      },
+      "amount": "{{amount}}",
+      "currency": "USD",
+      "conversion": 1,
+      "billingAddress": {
+        "addressLine1": "100 NE 100th St",
+        "addressLine2": "Near landmark",
+        "addressLine3": "Near landmark",
+        "addressLine4": "Near landmark",
+        "city": "Seattle",
+        "region": "Washington",
+        "countryCode": "US",
+        "postalCode": "98121",
+        "name": {
+          "firstName": "John",
+          "middleName": "Williams",
+          "lastName": "Doe"
+        },
+        "phone": {
+          "number": "123-456-7890",
+          "type": "HOME"
+        },
+        "email": "john.doe@gmail.com",
+        "customerId": "98121",
+        "type": "residence",
+        "latitude": 32.294952,
+        "longitude": 32.294952
+      },
+      "attributes": {
+        "name": "Attribute1",
+        "value": "620d8896058edb0009385311"
+      }
+    }
+  ],
+  "tax": {
+    "itemsTaxes": [
+      {
+        "position": 1,
+        "amount": 0,
+        "type": "state tax"
+      }
+    ],
+    "shippingTaxes": [
+      {
+        "shippingDetailsId": "{{shippingDetailsId}}",
+        "amount": 0,
+        "type": "state tax"
+      }
+    ]
+  },
+  "orderMetadata": {
+    "orderType": "WEB",
+    "orderSubType": "Android",
+    "notes": [
+      {
+        "notedAt": "2022-09-06T14:07:17.000Z",
+        "user": "John Doe",
+        "notes": "Additional notes..."
+      }
+    ]
+  }
+}
